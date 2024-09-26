@@ -1,0 +1,1210 @@
+{
+	"info": {
+		"_postman_id": "54677bd1-c884-45fa-bc57-eac2666fae54",
+		"name": "LISTADO DIRECCIONES (Geo Address)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31343033",
+		"_collection_link": "https://mu0000.postman.co/workspace/MU~82d030ff-b52e-427b-9509-9b84d61fa006/collection/31343033-54677bd1-c884-45fa-bc57-eac2666fae54?action=share&source=collection_link&creator=31343033"
+	},
+	"item": [
+		{
+			"name": "DIRECCIONES FTTH",
+			"item": [
+				{
+					"name": "HARRIS PAUL 2162",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country=Argentina&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=HARRIS PAUL&streetNr=2162",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "Argentina"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "HARRIS PAUL"
+								},
+								{
+									"key": "streetNr",
+									"value": "2162"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PAYSANDU 4084",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country=Argentina&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=PAYSANDU&streetNr=4084",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "Argentina"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "PAYSANDU"
+								},
+								{
+									"key": "streetNr",
+									"value": "4084"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "650 ,PJE.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=650 ,PJE.&streetNr=4079",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "650 ,PJE."
+								},
+								{
+									"key": "streetNr",
+									"value": "4079"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PAYSANDU 3920",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=PAYSANDU&streetNr=3920",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "PAYSANDU"
+								},
+								{
+									"key": "streetNr",
+									"value": "3920"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ARGENTINA 2171",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=ARGENTINA&streetNr=2171",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "ARGENTINA"
+								},
+								{
+									"key": "streetNr",
+									"value": "2171"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "719 3939",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=719&streetNr=3939",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "719"
+								},
+								{
+									"key": "streetNr",
+									"value": "3939"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "024 272",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=COLON&city=COLON&streetName=024&streetNr=272",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "COLON"
+								},
+								{
+									"key": "city",
+									"value": "COLON"
+								},
+								{
+									"key": "streetName",
+									"value": "024"
+								},
+								{
+									"key": "streetNr",
+									"value": "272"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 21 595",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 21&streetNr=595",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 21"
+								},
+								{
+									"key": "streetNr",
+									"value": "595"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 21 587",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 21&streetNr=587",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 21"
+								},
+								{
+									"key": "streetNr",
+									"value": "587"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 21 581",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 21&streetNr=581",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 21"
+								},
+								{
+									"key": "streetNr",
+									"value": "581"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 23 659",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 23&streetNr=659",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 23"
+								},
+								{
+									"key": "streetNr",
+									"value": "659"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "493-sarmiento 3401",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=manuel b gonnet&city=la plata&streetName=493-sarmiento&streetNr=3401",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "manuel b gonnet"
+								},
+								{
+									"key": "city",
+									"value": "la plata"
+								},
+								{
+									"key": "streetName",
+									"value": "493-sarmiento"
+								},
+								{
+									"key": "streetNr",
+									"value": "3401"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 23 675",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 23&streetNr=675",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 23"
+								},
+								{
+									"key": "streetNr",
+									"value": "675"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 23 653",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 23&streetNr=653",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 23"
+								},
+								{
+									"key": "streetNr",
+									"value": "653"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 23 663",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 23&streetNr=663",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 23"
+								},
+								{
+									"key": "streetNr",
+									"value": "663"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "496 3661",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=manuel b gonnet&city=la plata&streetName=496&streetNr=3661",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "manuel b gonnet"
+								},
+								{
+									"key": "city",
+									"value": "la plata"
+								},
+								{
+									"key": "streetName",
+									"value": "496"
+								},
+								{
+									"key": "streetNr",
+									"value": "3661"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "496 3689",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=manuel b gonnet&city=la plata&streetName=496&streetNr=3689",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "manuel b gonnet"
+								},
+								{
+									"key": "city",
+									"value": "la plata"
+								},
+								{
+									"key": "streetName",
+									"value": "496"
+								},
+								{
+									"key": "streetNr",
+									"value": "3689"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "031 ,av. 3799",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=manuel b gonnet&city=la plata&streetName=031 ,av.&streetNr=3799",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "manuel b gonnet"
+								},
+								{
+									"key": "city",
+									"value": "la plata"
+								},
+								{
+									"key": "streetName",
+									"value": "031 ,av."
+								},
+								{
+									"key": "streetNr",
+									"value": "3799"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "031 ,av. 3884",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=BUENOS AIRES&locality=manuel b gonnet&city=la plata&streetName=031 ,av.&streetNr=3884",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "BUENOS AIRES"
+								},
+								{
+									"key": "locality",
+									"value": "manuel b gonnet"
+								},
+								{
+									"key": "city",
+									"value": "la plata"
+								},
+								{
+									"key": "streetName",
+									"value": "031 ,av."
+								},
+								{
+									"key": "streetNr",
+									"value": "3884"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "callegari lino 1034",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=santa fe&locality=casilda&city=caseros&streetName=callegari lino&streetNr=1034",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "santa fe"
+								},
+								{
+									"key": "locality",
+									"value": "casilda"
+								},
+								{
+									"key": "city",
+									"value": "caseros"
+								},
+								{
+									"key": "streetName",
+									"value": "callegari lino"
+								},
+								{
+									"key": "streetNr",
+									"value": "1034"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 05 97",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 05&streetNr=97",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 05"
+								},
+								{
+									"key": "streetNr",
+									"value": "97"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 05 101",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 05&streetNr=101",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 05"
+								},
+								{
+									"key": "streetNr",
+									"value": "101"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "B. SANTA CATALINA MZA 05 107",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=Corrientes&locality=Corrientes&city=Capital&streetName=B. SANTA CATALINA MZA 05&streetNr=107",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "Corrientes"
+								},
+								{
+									"key": "locality",
+									"value": "Corrientes"
+								},
+								{
+									"key": "city",
+									"value": "Capital"
+								},
+								{
+									"key": "streetName",
+									"value": "B. SANTA CATALINA MZA 05"
+								},
+								{
+									"key": "streetNr",
+									"value": "107"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "los jazmines 351",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=cordoba&locality=alta gracia&city=santa maria&streetName=los jazmines&streetNr=351",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "cordoba"
+								},
+								{
+									"key": "locality",
+									"value": "alta gracia"
+								},
+								{
+									"key": "city",
+									"value": "santa maria"
+								},
+								{
+									"key": "streetName",
+									"value": "los jazmines"
+								},
+								{
+									"key": "streetNr",
+									"value": "351"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OTRAS DIRECCIONES",
+			"item": [
+				{
+					"name": "jujuy 3717",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://rimtf-t:9090/geographicAddressManagement/v1/geographicAddress?country={{Arg}}&stateOrProvince=cordoba&locality=cordoba&city=capital&streetName=jujuy&streetNr=3717",
+							"protocol": "http",
+							"host": [
+								"rimtf-t"
+							],
+							"port": "9090",
+							"path": [
+								"geographicAddressManagement",
+								"v1",
+								"geographicAddress"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "{{Arg}}"
+								},
+								{
+									"key": "stateOrProvince",
+									"value": "cordoba"
+								},
+								{
+									"key": "locality",
+									"value": "cordoba"
+								},
+								{
+									"key": "city",
+									"value": "capital"
+								},
+								{
+									"key": "streetName",
+									"value": "jujuy"
+								},
+								{
+									"key": "streetNr",
+									"value": "3717"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
